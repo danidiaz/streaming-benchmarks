@@ -1,8 +1,8 @@
 cabal-version: 3.0
-name: streaming-benchmark
+name: streaming-benchmarks
 version: 1.0.0.0
 
-executable streaming-benchmark
+executable streaming-benchmarks
     main-is: Main.hs
     build-depends: 
         base, 
