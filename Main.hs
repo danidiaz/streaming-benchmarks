@@ -34,12 +34,12 @@ stream2 chunkSize = go
                    go rest
 
 -- | accumulate the length of a stream of strict bytestring chunks
-benchmark1 :: B.ByteString -> Benchmark
+benchmark1 :: B.ByteString -> Benchmarkable
 benchmark1 = nfIO . S.fold_ (\acc b -> acc + B.length b) 0 id . stream1 4
 
 -- | calculate the length of a streamed ByteString
-benchmark1 :: B.ByteString -> Benchmark
-benchmark1 = nfIO . BS.length_ . stream2 4 
+benchmark2 :: B.ByteString -> Benchmarkable
+benchmark2 = nfIO . BS.length_ . stream2 4 
 
 main :: IO ()
 main = do
