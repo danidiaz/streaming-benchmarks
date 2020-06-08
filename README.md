@@ -19,3 +19,9 @@
 
 There doesn't seem to be much of a difference, but maybe the benchmark is too
 naive.
+
+# useful links
+
+- [criterion tutorial](http://www.serpentine.com/criterion/tutorial.html)
+- [criterion in Hackage](http://hackage.haskell.org/package/criterion)
+
