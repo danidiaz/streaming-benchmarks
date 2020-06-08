@@ -16,3 +16,6 @@
 	mean                 5.176 ms   (5.126 ms .. 5.243 ms)
 	std dev              183.2 μs   (136.4 μs .. 249.9 μs)
 	variance introduced by outliers: 17% (moderately inflated)
+
+There doesn't seem to be much of a difference, but maybe the benchmark is too
+naive.
